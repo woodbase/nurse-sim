@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://bm72or0fqn2cf"]
+
+[node name="Main" type="Node2D"]
+
+[node name="Label" type="Label" parent="."]
+offset_left = 8.0
+offset_top = 8.0
+text = "Nurse Sim"
