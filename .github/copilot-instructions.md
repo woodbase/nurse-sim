@@ -79,3 +79,11 @@ When implementing an issue:
   - Procedure logic
   - Scoring system
   - Feedback system
+ 
+  - ## Commit Style
+
+Use conventional commits:
+- feat:
+- fix:
+- refactor:
+- docs:
