@@ -1,0 +1,36 @@
+name: Feature
+description: New feature or implementation task
+title: "[Feature]: "
+labels: ["feature"]
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: What system or procedure does this belong to?
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Clear technical description of what must be implemented.
+    validations:
+      required: true
+
+  - type: textarea
+    id: architecture
+    attributes:
+      label: Architectural Constraints
+      description: State machine? System? Signals?
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance Criteria
+      description: What must be true for this to be complete?
+    validations:
+      required: true
