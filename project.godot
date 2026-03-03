@@ -11,8 +11,12 @@ config_version=5
 [application]
 
 config/name="NurseSim"
-run/main_scene="res://scenes/Main.tscn"
+run/main_scene="res://scenes/pvk_room.tscn"
 config/features=PackedStringArray("4.x")
+
+[autoload]
+
+ProcedureResult="*res://systems/procedure_result.gd"
 
 [input]
 
