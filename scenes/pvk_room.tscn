@@ -1,9 +1,22 @@
-[gd_scene load_steps=2 format=3 uid="uid://pvk_room"]
+[gd_scene load_steps=5 format=3 uid="uid://pvk_room"]
 
 [ext_resource type="Script" path="res://scenes/pvk_room.gd" id="1"]
+[ext_resource type="PackedScene" path="res://scenes/Player.tscn" id="2"]
+
+[sub_resource type="RectangleShape2D" id="1"]
+size = Vector2(500, 20)
 
 [node name="PVKRoom" type="Node"]
 script = ExtResource("1")
+
+[node name="Player" parent="." instance=ExtResource("2")]
+position = Vector2(280, 220)
+
+[node name="BoundaryFloor" type="StaticBody2D" parent="."]
+position = Vector2(280, 320)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="BoundaryFloor"]
+shape = SubResource("1")
 
 [node name="UI" type="CanvasLayer" parent="."]
 
