@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [gd_scene load_steps=3 format=3]
 
 [ext_resource type="PackedScene" path="res://scenes/Player.tscn" id="1_player"]
@@ -10,3 +11,8 @@ position = Vector2(200.0, 300.0)
 
 [node name="SampleObject" parent="." instance=ExtResource("2_interactable")]
 position = Vector2(400.0, 300.0)
+=======
+[gd_scene load_steps=1 format=3]
+
+[node name="Main" type="Node"]
+>>>>>>> 69b73ef (Initial commit)
